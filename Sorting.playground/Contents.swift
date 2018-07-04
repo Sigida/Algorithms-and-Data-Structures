@@ -28,6 +28,8 @@ func sorting<T:Comparable>(unSortArray:[T])-> [T] {
     }
     return sortArray
 }
+sorting(unSortArray: ["Nomer","Griner","Xrten"])
+sorting(unSortArray: [10,77,90,56,89,30])
 
 //example with Int
 
@@ -42,6 +44,8 @@ func smallest (array:[Int]) -> Int {
     }
     return index
 }
+
+
 smallest(array: [15,3,6,9,34,76])
 
 
@@ -61,4 +65,5 @@ func sorting(unSortArray:[Int])-> [Int] {
 
 let newArray = sorting(unSortArray: [15,3,6,9,34,76])
 print(newArray)
+
 
